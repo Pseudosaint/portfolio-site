@@ -9,6 +9,7 @@ let dateThing = Date()
 
 let clock = document.createElement("div")
 clock.setAttribute("id", "date")
+clock.setAttribute("style", "display:inline-block;")
 clock.textContent = dateThing
 
 header.appendChild(clock)
