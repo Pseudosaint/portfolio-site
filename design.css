@@ -5,7 +5,7 @@ html{
 #header{
     display: flex;
     justify-content: space-between;
-    background-color: orchid;
+    background-color: #35063e;
 }
 
 #header a{
