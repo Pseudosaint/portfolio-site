@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="projects.css">
     <script src="textpad.js" defer></script>
 </head>
 <body>
-    <a href="index.html">Return to Main Site</a>
+    <a href="index.html">&lt Return to Main Site</a>
     <br>
-    <textarea name="text" cols="100" rows="50" id="textthing"></textarea>
-    <br>
-    <textarea id="nameThing"></textarea>
-    <button id="Download" onclick="getText()">Download</button>
-    <button id="clear" onclick="resetText()">Clear</button>
+    <div id="textBox">
+        <textarea name="text" cols="50" rows="30" placeholder="Put your text here!!!!!!" id="textthing"></textarea>
+    </div>
+        <br>
+    <div id="nameEnd">
+        <textarea id="nameThing" placeholder="Your filename here!!"></textarea>
+        <button id="Download" onclick="getText()">Download</button>
+        <button id="clear" onclick="resetText()">Clear</button>
+    </div>
 </body>
 </html>
